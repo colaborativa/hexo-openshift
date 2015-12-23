@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: The Open Source Home
+subtitle: A log of the construction of an open source house
 description:
-author: John Doe
-language:
-timezone:
+author: Colaborativa.eu
+language: en
+timezone: ES
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://theopensourcehome.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -63,9 +63,23 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: theopensourcehome
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type:
+
+server:
+  port: 4000
+  log: false
+  ip: 0.0.0.0
+  open: yes
+
+# Admin
+admin:
+    name: admin
+    password: lacasaabierta
+    secret: hey hexo
+    expire: 60*1
+    # cors: http://localhost:3000

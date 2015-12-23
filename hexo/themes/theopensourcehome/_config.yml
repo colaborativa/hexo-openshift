@@ -1,0 +1,20 @@
+fancybox: ## If you want to use fancybox please set the value to true
+disqus: theopensourcehome
+swiftype: rNysXwBj5u6qvFLU6Lbs
+google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
+menu:
+  - page: home
+    directory: /
+    icon: icon-home
+  - page: archive
+    directory: archives/
+    icon: icon-archive
+  - page: about
+    directory: about/
+    icon: icon-about
+  - page: rss
+    directory: atom.xml
+    icon: icon-rss
+links:
+  - title: Colaborativa.eu
+    url: http://www.colaborativa.eu/
